@@ -24,4 +24,5 @@ This project is a Machine Learning-based web application that predicts whether a
   - Label Encoding
   - Train-test split
 
-- Model is saved as:
+- The trained model is saved as `customer_churn_model.pkl` using pickle.  
+  This file is loaded in the Flask app to make real-time predictions without retraining.
