@@ -141,15 +141,16 @@
 
         <div class="loading" id="loading">Processing request...</div>
 
-        {% if prediction is not none %}
-        <div class="result-box {% if prediction == 'Churn' %}churn{% else %}no-churn{% endif %}">
-            {% if prediction == "Churn" %}
+        
+        <div class="result-box">
+            
                 ⚠️ High Risk: Customer likely to churn
-            {% else %}
+                <br>
+           
                 ✔️ Low Risk: Customer likely to stay
-            {% endif %}
+            
         </div>
-        {% endif %}
+        
 
     </div>
 </div>
